@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    /* Set up the colors */
+    background: #190E4F;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: #190E4F;
+}
+.nav-logo {    
+    border-radius: 100px;
+}
+
+
+.FullPI {
+
+    /* Color and image bacground */
+    background-image:
+        linear-gradient(#0201595E, #02015981),
+        url("../assets/gambar-full.jpg");
+    /* Center the image */
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Height of the screen */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.time {
+    margin: 0px auto 30px auto;
+}
+#salam {
+    display: inline;
+    font-weight: 600;    
+}
+#clock {
+    display: inline;    
+}
+.link {
+    color: #EA638C;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border: 2px solid #EA638C;
+    border-radius: 50px;
+}
+.link:hover {
+    background-color: #ea638c38;
+    color: #808080;
+    font-weight: 600;
+}
+
+
+.card-profile {
+    background-color: #b33c851f;
+    border-radius: 40px;
+}
+.icon-container {
+    margin: 20px;
+}
+.icon-container > div > p {
+    font-size: 0.875em;
+}
+.icon-container > div > h2 {
+    color: #B33C86;
+    font-size: 1em;
+}
