@@ -33,37 +33,40 @@
 
 
     <!-- Section navbar start -->
-
+    
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
         <div class="container-fluid">
-            <img src="assets/logoCompany.jpg" alt="" width="60px" class="nav-logo">
+            <img src="assets/logoCompany.jpg" alt="" width="60px" class="d-none d-lg-block nav-logo">
             <button class="navbar-toggler bg-dark text-danger" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent"">
-            <ul class=" navbar-nav me-auto mb-2 mb-lg-0 text-center">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Project</a>
-                </li>
+            </button>                        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Project</a>
+                    </li>
                 </ul>
-            </div>
+            </div>    
+            <button class="btn" id="darkMode" 
+                onclick="darkMode()"
+                style="background: gray;">Dark</button>
         </div>
     </nav>
 
     <!-- Section navbar end -->
 
-
+    
     <!-- Section full page image start -->
 
     <div class="container-fluid FullPI" id="home">
@@ -74,16 +77,16 @@
                 <div id="clock"></div>
                 <div id="tanggal"></div>
             </div>
-            <a href="#tentang-saya" class="link">Tentang Saya</a>
-        </div>
-    </div>
+            <a href="#tentang-saya" class="link">Tentang Saya</a>            
+        </div>        
+    </div>    
 
     <!-- Section full page image end -->
 
 
     <!-- Section about me start -->
 
-    <div class="container-fluid py-5 text-dark bg-light" id="tentang-saya">
+    <div class="container-fluid py-5" id="tentang-saya">
         <div class="card-profile text-center mb-5 pb-5 px-3">
             <img src="assets/profile-image.png" alt="" width="230px"
                 class="border border-secondary border-3 rounded-circle my-5">
@@ -92,7 +95,7 @@
                 <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore quos
                     repellendus nemo. Possimus temporibus modi?</p>
                 <div class="d-grid gap-2 d-flex justify-content-center">
-                    <a href="#contact" class="btn btn-primary w-50 btn-lg px-4 gap-3">Hubungi Saya</a>
+                    <a href="#contact" class="btn btn-primary w-30 btn-md px-4 gap-3">Hubungi Saya</a>
                 </div>
             </div>
         </div>
@@ -193,17 +196,21 @@
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
                 <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-5">
                     <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 text-center">
                     <button type="submit" class="btn btn-primary">Kirim</button>
                 </div>
             </form>
         </div>
     </div>
 
-    <!-- Section contact start -->
+    <!-- Section contact end -->
 
 
     <!-- Section footer start -->
@@ -216,7 +223,7 @@
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
         </ul>
-        <p class="text-center text-muted">&copy; 2021 Ucok Company, Inc</p>
+        <p class="text-center text-muted">&copy; 2022 Ucok Company, Inc</p>
     </footer>
 
     <!-- Section footer end -->
@@ -283,6 +290,26 @@
         var yy = date.getYear();
         var year = (yy < 1000) ? yy + 1900 : yy;
         document.getElementById('tanggal').innerHTML = thisDay + ', ' + day + ' ' + months[month] + ' ' + year;  
+    </script>
+
+
+    <!-- Dark mode -->
+
+    <script>
+        function darkMode() {
+            var element = document.body;            
+            element.classList.toggle("dark-mode");
+
+            var x = document.getElementById("darkMode");
+            if(x.innerHTML === "Dark") {
+                x.innerHTML = "Light";
+                document.getElementById("darkMode").style.background = "white";
+                document.getElementById("darkMode").style.color = "black";
+            } else {
+                x.innerHTML = "Dark";
+                document.getElementById("darkMode").style.background = "gray";
+            }
+        }
     </script>
 
 </body>

@@ -1,9 +1,13 @@
 body {
     margin: 0px;
     /* Set up the colors */
-    background: #190E4F;
-    color: white;
+    background: #e6e2fa;
+    color: black;
     font-family: 'Raleway', sans-serif;
+}
+.dark-mode {
+    background-color: #190E4F;
+    color: white;
 }
 
 
@@ -19,7 +23,7 @@ a {
 
 
 .FullPI {
-
+    color: white;
     /* Color and image bacground */
     background-image:
         linear-gradient(#0201595E, #02015981),
