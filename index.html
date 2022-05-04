@@ -60,7 +60,7 @@
             </div>    
             <button class="btn" id="darkMode" 
                 onclick="darkMode()"
-                style="background: gray;">Dark</button>
+                style="background: gray; font-size: 26px; padding: 0px 4px 0px 4px;">🌑</button>
         </div>
     </nav>
 
@@ -204,7 +204,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="mb-3 text-center">
-                    <button type="submit" class="btn btn-primary">Kirim</button>
+                    <button type="submit" class="btn btn-primary w-50">Kirim</button>
                 </div>
             </form>
         </div>
@@ -294,19 +294,19 @@
 
 
     <!-- Dark mode -->
-
+☀️🌑
     <script>
         function darkMode() {
             var element = document.body;            
             element.classList.toggle("dark-mode");
 
             var x = document.getElementById("darkMode");
-            if(x.innerHTML === "Dark") {
-                x.innerHTML = "Light";
+            if(x.innerHTML === "🌑") {
+                x.innerHTML = "☀️";
                 document.getElementById("darkMode").style.background = "white";
                 document.getElementById("darkMode").style.color = "black";
             } else {
-                x.innerHTML = "Dark";
+                x.innerHTML = "🌑";
                 document.getElementById("darkMode").style.background = "gray";
             }
         }
