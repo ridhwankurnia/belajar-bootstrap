@@ -1,6 +1,5 @@
 body {
-    margin: 0px;
-    /* Set up the colors */
+    margin: 0px;    
     background: #e6e2fa;
     color: black;
     font-family: 'Raleway', sans-serif;
@@ -15,25 +14,25 @@ a {
     text-decoration: none;
 }
 .navbar {
-    background-color: #190E4F;
+    background: #190e4fd7;
 }
-.nav-logo {    
-    border-radius: 100px;
+.navbar-brand {
+    margin-right: 850px;
+}
+.btn-dark-mode {
+    background: gray; 
+    font-size: 26px; padding: 0px 8px 0px 8px;
 }
 
 
 .FullPI {
     color: white;
-    /* Color and image bacground */
     background-image:
         linear-gradient(#0201595E, #02015981),
-        url("../assets/gambar-full.jpg");
-    /* Center the image */
-    background-position: center;
-    /* Do not repeat the image */
+        url("../assets/gambar-full.jpg");    
+    background-position: center;    
     background-repeat: no-repeat;
-    background-size: cover;
-    /* Height of the screen */
+    background-size: cover;    
     height: 90vh;
     display: flex;
     align-items: center;
@@ -42,13 +41,6 @@ a {
 }
 .time {
     margin: 0px auto 30px auto;
-}
-#salam {
-    display: inline;
-    font-weight: 600;    
-}
-#clock {
-    display: inline;    
 }
 .link {
     color: #EA638C;
@@ -61,6 +53,9 @@ a {
     background-color: #ea638c38;
     color: #808080;
     font-weight: 600;
+}
+.btn-contact{
+    background: #B33C86;    
 }
 
 
@@ -78,3 +73,38 @@ a {
     color: #B33C86;
     font-size: 1em;
 }
+
+
+.blog-title {
+    background: #b33c8554;
+    color: rgb(100, 100, 100);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.blog-image {    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-label{
+    font-weight: 600;
+}
+.btn-kirim {
+    background-color: #B33C86;
+    border-radius: 20px;    
+}
+
+
+footer {
+    border-top: #EA638C solid;
+}
+
+
+/* .btn-up {
+    background:#ff1818;
+    color: #B33C86;
+    padding: 0px;    
+}
+.bi-arrow-up-circle-fill {
+    font-size: 3em;    
+} */
