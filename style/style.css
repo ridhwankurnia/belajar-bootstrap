@@ -14,11 +14,19 @@ a {
     text-decoration: none;
 }
 .navbar {
-    background: #190e4fd7;
+    background: #190e4fd7;    
 }
-.navbar-brand {
+.nav-link {
+    color: rgb(255, 255, 255);    
+}
+
+
+.nav-link:hover {
+    color: #B33C86;    
+}
+/* .navbar-brand {
     margin-right: 850px;
-}
+} */
 .btn-dark-mode {
     background: gray; 
     font-size: 26px; padding: 0px 8px 0px 8px;
@@ -29,7 +37,7 @@ a {
     color: white;
     background-image:
         linear-gradient(#0201595E, #02015981),
-        url("../assets/gambar-full.jpg");    
+        url("../assets/full-page-image.jpg");    
     background-position: center;    
     background-repeat: no-repeat;
     background-size: cover;    
@@ -60,7 +68,7 @@ a {
 
 
 .card-profile {
-    background-color: #b33c851f;
+    background-color: #b33c8554;
     border-radius: 40px;
 }
 .icon-container {
@@ -86,12 +94,37 @@ a {
     border-bottom-right-radius: 20px;
 }
 
+
+.project {
+    color: rgb(100, 100, 100);
+    background: #b33c8554;
+}
+.card {
+    border-radius: 20px;
+    color: black;
+}
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+input {
+    height: 8vh;    
+}
+textarea {
+    height: 23vh;
+}
+.form-control {
+    border-radius: 8px;
+}
 .form-label{
     font-weight: 600;
 }
 .btn-kirim {
     background-color: #B33C86;
-    border-radius: 20px;    
+    border-radius: 30px;   
+    height: 7vh; 
 }
 
 
