@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,19 +20,16 @@
     <link rel="stylesheet" href="style/style.css">
 
     <title>Ridhwan | Homepage</title>
-
 </head>
-
 <body>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
 
-    <!-- Section navbar start -->
-    
+    <!-- Section navbar start -->    
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid py-2">
@@ -64,13 +60,11 @@
                 <button class="btn btn-dark-mode" id="darkMode" onclick="darkMode()">🌑</button>
             </div>
         </nav>
-    </header>
-    
+    </header>    
     <!-- Section navbar end -->
     
     
     <!-- Section full page image start -->
-    
     <div class="container-fluid FullPI">
         <div>
             <h1>Selamat Datang <br class="d-md-none">di Web Saya</h1>
@@ -81,13 +75,11 @@
             </div>
             <a href="#tentang-saya" class="link">Tentang Saya</a>
         </div>
-    </div>
-    
+    </div>    
     <!-- Section full page image end -->
     
     
-    <!-- Section about me start -->
-    
+    <!-- Section about me start -->    
     <div class="container-fluid py-5" id="tentang-saya">
         <div class="card-profile text-center mb-5 pb-5 px-3">
             <img src="assets/profile-image.png" alt="" width="230px"
@@ -131,15 +123,13 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
     <!-- Section about me end -->
     
     
-    <!-- Section carousel start -->
-    
+    <!-- Section blog carousel start -->    
     <div id="blog" class="my-5 py-5">
-        <div id="carouselExampleCaptions" class="container-xxl carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="container carousel slide" data-bs-ride="carousel">
             <div class="blog-title mt-5 py-4 display-5 text-center">BLOG</div>
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -151,21 +141,21 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/carousel-1.jpg" class="blog-image d-block w-100" alt="Blog 1" style="height: 70vh;">
+                    <img src="assets/carousel-1.jpg" class="blog-image d-block w-100" alt="Blog 1" style="height: 65vh;">
                     <div class="carousel-caption d-md-block">
                         <h5>Blog 1</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur. Nisi, architecto delectus?</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/carousel-2.jpg" class="blog-image d-block w-100" alt="Blog 2" style="height: 70vh;">
+                    <img src="assets/carousel-2.jpg" class="blog-image d-block w-100" alt="Blog 2" style="height: 65vh;">
                     <div class="carousel-caption d-md-block">
                         <h5>Blog 2</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur. Nisi, architecto delectus?</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/carousel-3.jpg" class="blog-image d-block w-100" alt="Blog 3" style="height: 70vh;">
+                    <img src="assets/carousel-3.jpg" class="blog-image d-block w-100" alt="Blog 3" style="height: 65vh;">
                     <div class="carousel-caption d-md-block">
                         <h5>Blog 3</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur. Nisi, architecto delectus?</p>
@@ -183,53 +173,65 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </div>    
+    <!-- Section blog carousel end -->
     
-    <!-- Section carousel end -->
     
-    
-    <!-- Section project start -->
-    
+    <!-- Section project start -->    
     <div class="container-fluid project my-5 py-5" id="project">
-        <div class="my-5 display-5 text-center">PROJECT</div>
+        <div class="container my-5 text-center">
+            <h1 class="display-5">PROJECT</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit ipsa architecto! Accusantium lorem ipsum.</p>
+        </div>
         <div class="d-flex justify-content-center">
-            <div class="d-lg-flex mb-5 justify-content-center">
-                <div class="card mx-md-3 mb-4" style="width: 18rem;">
-                    <img src="assets/project-1.png" class="card-img-top" alt="Project 1">
+            <div class="d-lg-flex mb-lg-3 justify-content-center">
+                <div class="card ms-lg-5 me-lg-3 mb-4">
+                    <img src="assets/project-1.jpeg" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">Project 1</h5>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisium mollitia suscipit quo
                             inventore magnam.</p>
-                        <a href="#" class="btn btn-primary">Lihat</a>
+                        <a href="#" class="btn btn-primary btn-project">Lihat</a>
                     </div>
                 </div>
-                <div class="card mx-md-3 mb-4" style="width: 18rem;">
-                    <img src="assets/project-2.png" class="card-img-top" alt="Project 2">
+                <div class="card ms-lg-3 me-lg-5 mb-4">
+                    <img src="assets/project-2.jpeg" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title">Project 2</h5>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisium mollitia suscipit quo
                             inventore magnam.</p>
-                        <a href="#" class="btn btn-primary">Lihat</a>
+                        <a href="#" class="btn btn-success btn-project">Lihat</a>
                     </div>
-                </div>
-                <div class="card mx-md-3 mb-4" style="width: 18rem;">
-                    <img src="assets/project-3.png" class="card-img-top" alt="Project 3">
+                </div>                
+            </div>            
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="d-lg-flex px-lg-5 mb-5 justify-content-center">
+                <div class="card ms-lg-5 me-lg-3 mb-4">
+                    <img src="assets/project-3.jpeg" class="card-img-top" alt="Project 3">
                     <div class="card-body">
                         <h5 class="card-title">Project 3</h5>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisium mollitia suscipit quo
                             inventore magnam.</p>
-                        <a href="#" class="btn btn-primary">Lihat</a>
+                        <a href="#" class="btn btn-danger btn-project">Lihat</a>
                     </div>
                 </div>
-            </div>
+                <div class="card card ms-lg-3 me-lg-5 mb-4">
+                    <img src="assets/project-4.jpeg" class="card-img-top" alt="Project 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 4</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisium mollitia suscipit quo
+                            inventore magnam.</p>
+                        <a href="#" class="btn btn-dark btn-project">Lihat</a>
+                    </div>
+                </div>         
+            </div>            
         </div>
-    </div>
-    
+    </div>    
     <!-- Section project end -->
     
     
-    <!-- Section contact start -->
-    
+    <!-- Section contact start -->    
     <div class="contact my-5 py-5" id="contact">
         <div class="container px-4 px-md-5 py-3">
             <div class="text-center my-5">
@@ -253,16 +255,14 @@
                 </div>
             </form>
         </div>
-    </div>
-    
+    </div>    
     <!-- Section contact end -->
     
     
-    <!-- Section footer start -->
-    
+    <!-- Section footer start -->    
     <footer class="py-4 mt-5">
         <div class="text-center fs-2 mb-2">
-            <a href="https://www.facebook.com/ridhwan.wicaksono/" target="blank">
+            <a href="https://www.facebook.com/ridhwan.k.wicaksono/" target="blank">
                 <i class="bi bi-facebook mx-1"></i>
             </a>
             <a href="https://www.instagram.com/rkwicaksono2620/" target="blank">
@@ -272,94 +272,13 @@
                 <i class="bi bi-linkedin mx-1"></i>
             </a>
         </div>
-        <p class="text-center text-muted">&copy; 2022 Wan Company, Inc</p>
-    </footer>
-    
+        <p class="text-center text-muted">Made with ❤️ by Ridhwan Kurnia, using Bootstrap 5.</p>
+    </footer>    
     <!-- Section footer end -->
 
 
-
-
-    <!-- Menampilkan Jam Secara Live -->
-
-    <script type="text/javascript">
-        function showTime() {
-            var today = new Date();
-            var curr_hour = today.getHours();
-            var curr_minute = today.getMinutes();
-            var curr_second = today.getSeconds();
-
-            if (curr_hour >= 0) {
-                salam = "Good Morning ⛅";
-                document.getElementById("salam").style.color = "#5decff";
-            }
-            if (curr_hour >= 12) {
-                salam = "Good Afternoon 🌞";
-                document.getElementById("salam").style.color = "#c8ff00";
-            }
-            if (curr_hour >= 18) {
-                salam = "Good Evening 🌗";
-                document.getElementById("salam").style.color = "#00c24a";
-            }
-            if (curr_hour >= 19) {
-                salam = "Good Night 🌚";
-                document.getElementById("salam").style.color = "#9e9e9e";
-            }
-
-            curr_hour = checkTime(curr_hour);
-            curr_minute = checkTime(curr_minute);
-            curr_second = checkTime(curr_second);
-            document.getElementById('clock').innerHTML = curr_hour + ":" + curr_minute + ":" + curr_second;
-            document.getElementById('salam').innerHTML = salam;
-
-
-        }
-
-        function checkTime(i) {
-            if (i < 10) {
-                i = "0" + i;
-            }
-            return i;
-        }
-        setInterval(showTime, 500);
-    </script>
-
-
-    <!-- Menampilkan Hari, Tanggal Bulan dan Tahun -->
-
-    <script type='text/javascript'>
-        var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
-        var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
-        var date = new Date();
-        var day = date.getDate();
-        var month = date.getMonth();
-        var thisDay = date.getDay(),
-            thisDay = myDays[thisDay];
-        var yy = date.getYear();
-        var year = (yy < 1000) ? yy + 1900 : yy;
-        document.getElementById('tanggal').innerHTML = thisDay + ', ' + day + ' ' + months[month] + ' ' + year;  
-    </script>
-
-
-    <!-- Dark mode switch -->
-
-    <script>
-        function darkMode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-
-            var x = document.getElementById("darkMode");
-            if (x.innerHTML === "🌑") {
-                x.innerHTML = "☀️";
-                document.getElementById("darkMode").style.background = "white";
-                document.getElementById("darkMode").style.color = "black";
-            } else {
-                x.innerHTML = "🌑";
-                document.getElementById("darkMode").style.background = "gray";
-            }
-        }
-    </script>
+    <!-- Import script js -->
+    <script type="text/javascript" src="script/script.js"></script>    
 
 </body>
-
 </html>

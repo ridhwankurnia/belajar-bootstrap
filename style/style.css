@@ -19,14 +19,9 @@ a {
 .nav-link {
     color: rgb(255, 255, 255);    
 }
-
-
 .nav-link:hover {
     color: #B33C86;    
 }
-/* .navbar-brand {
-    margin-right: 850px;
-} */
 .btn-dark-mode {
     background: gray; 
     font-size: 26px; padding: 0px 8px 0px 8px;
@@ -59,8 +54,7 @@ a {
 }
 .link:hover {
     background-color: #ea638c38;
-    color: #808080;
-    font-weight: 600;
+    color: white;    
 }
 .btn-contact{
     background: #B33C86;    
@@ -107,10 +101,14 @@ a {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.btn-project{
+    background: #B33C86;
+    color: white;  
+}
 
 
 input {
-    height: 8vh;    
+    height: 7vh;    
 }
 textarea {
     height: 23vh;
@@ -131,13 +129,3 @@ textarea {
 footer {
     border-top: #EA638C solid;
 }
-
-
-/* .btn-up {
-    background:#ff1818;
-    color: #B33C86;
-    padding: 0px;    
-}
-.bi-arrow-up-circle-fill {
-    font-size: 3em;    
-} */
