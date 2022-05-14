@@ -16,15 +16,14 @@ a {
 .navbar {
     background: #190e4fd7;    
 }
-.nav-link {
+.nav-link, .dark-mode-switch {
     color: rgb(255, 255, 255);    
 }
 .nav-link:hover {
     color: #B33C86;    
 }
-.btn-dark-mode {
-    background: gray; 
-    font-size: 26px; padding: 0px 8px 0px 8px;
+.cb-dark-mode:checked {
+    background-color: #B33C86;
 }
 
 

@@ -53,20 +53,9 @@ var year = (yy < 1000) ? yy + 1900 : yy;
 document.getElementById('tanggal').innerHTML = thisDay + ', ' + day + ' ' + months[month] + ' ' + year;
 
 
+// check box untuk dark mode
 
-// Dark & light mode switch
-
-function darkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-
-    var x = document.getElementById("darkMode");
-    if (x.innerHTML === "🌑") {
-        x.innerHTML = "☀️";
-        document.getElementById("darkMode").style.background = "white";
-        document.getElementById("darkMode").style.color = "black";
-    } else {
-        x.innerHTML = "🌑";
-        document.getElementById("darkMode").style.background = "gray";
-    }
+function cbDarkMode() {
+    let element = document.body;
+    element.classList.toggle('dark-mode');
 }
