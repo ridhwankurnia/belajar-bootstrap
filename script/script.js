@@ -6,19 +6,19 @@ function showTime() {
     var curr_minute = today.getMinutes();
     var curr_second = today.getSeconds();
 
-    if (curr_hour >= 0) {
+    if (curr_hour < 12) {
         salam = "Good Morning ⛅";
         document.getElementById("salam").style.color = "#5decff";
     }
-    else if (curr_hour >= 12) {
+    else if (curr_hour < 18) {
         salam = "Good Afternoon 🌞";
         document.getElementById("salam").style.color = "#c8ff00";
     }
-    else if (curr_hour >= 18) {
+    else if (curr_hour < 19) {
         salam = "Good Evening 🌗";
         document.getElementById("salam").style.color = "#00c24a";
     }
-    else if (curr_hour >= 19) {
+    else {
         salam = "Good Night 🌚";
         document.getElementById("salam").style.color = "#9e9e9e";
     }
