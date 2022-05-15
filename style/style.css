@@ -88,9 +88,11 @@ a {
 }
 
 
-.project {
-    color: rgb(100, 100, 100);
+.project {    
     background: #b33c8554;
+}
+.project-title {
+    color: rgb(100, 100, 100);
 }
 .card {
     border-radius: 20px;
@@ -106,9 +108,6 @@ a {
 }
 
 
-input {
-    height: 7vh;    
-}
 textarea {
     height: 23vh;
 }
@@ -127,4 +126,12 @@ textarea {
 
 footer {
     border-top: #EA638C solid;
+}
+.span-footer-1 {
+    color: #B33C86;
+    font-weight: bold;
+}
+.span-footer-2 {
+    color: #712CF9;
+    font-weight: bold;
 }
